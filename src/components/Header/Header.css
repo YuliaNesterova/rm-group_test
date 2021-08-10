@@ -1,0 +1,39 @@
+.header {
+    background-color: #DDDEE3;
+    display: flex;
+    padding: 18px 70px;
+    position: relative;
+}
+
+.header__navigation {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__navigation_position_right {
+    justify-content: flex-end
+}
+
+.header__link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0;
+}
+
+.header__link:not(:last-child) {
+    margin-right: 10px;
+}
+
+.header__link:hover {
+    cursor: pointer;
+}
+
+
